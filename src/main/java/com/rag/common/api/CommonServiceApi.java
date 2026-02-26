@@ -1,11 +1,8 @@
-package com.rag.common.dto.api;
+package com.rag.common.api;
 
 import com.rag.common.dto.CommonDTO;
-import com.rag.common.dto.vo.Result;
+import com.rag.common.vo.Result;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 
 @FeignClient(name = "common-api", path = "/common")
 public interface CommonServiceApi {

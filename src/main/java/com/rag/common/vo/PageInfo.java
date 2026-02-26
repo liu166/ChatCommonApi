@@ -1,4 +1,4 @@
-package com.rag.common.dto.vo;
+package com.rag.common.vo;
 
 import lombok.Data;
 
